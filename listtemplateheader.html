@@ -1,0 +1,81 @@
+<br />
+<div
+  class="alert alert-warning"
+  style="border: 1px solid #c1bfbf; background-color: #f9e0d1"
+  role="alert"
+>
+  <h5>
+    <b
+      ><i class="fa fa-cogs"></i> Einmalige Vorkehrungen zur Verwendung der
+      Like-Datenbank:</b
+    >
+  </h5>
+
+  <details>
+    <summary style="color: hsl(40, 100%, 40%)"
+      ><b>1. Bewertungsskala im Kurs anlegen</b></summary
+    >
+    <p>
+      <u
+        ><strong
+          >Zuerst muss die Like-Skala angelegt
+          werden:</strong
+        ></u
+      >
+      <br />Kurs-Administration - Setup für Bewertungen - Bewertungsskalen - Neue
+      Bewertungsskala anlegen - Name: ❤ , Bewertungsskala: ❤
+      <input type="checkbox" />
+    </p>
+    <p>
+      (Das ❤ zur Benennung kann hier kopiert oder mit Rechtsklick - Emojis in 
+      Chrome erstellt werden)<br>(Die Bewertungsskala kann bei Bedarf auch global in der Website-Administration angelegt werden)
+    </p>
+    <p></p>
+  </details>
+  <details>
+    <summary style="color: hsl(40, 100%, 40%)"
+      ><b>2. Einstellungen der Datenbank anpassen </b></summary
+    >
+    <p>
+      <u><strong>Die Like-Bewertungsskala muss ausgewählt werden:</strong></u
+      ><br />Datenbank-Administration - Einstellungen bearbeiten - Bewertungen -
+      Summierungstyp: Summe der Bewertungen <input type="checkbox" /><br />Typ:
+      Skala <input type="checkbox" /><br />Bewertungsskala: ❤
+      <input type="checkbox" />
+    </p>
+    <p>
+      <u
+        ><strong
+          >Die Datenbank muss für Teilnehmer*innen außerdem verborgen aber
+          verfügbar sein.</strong
+        ></u
+      ><br />Datenbank-Administration - Einstellungen bearbeiten - Weitere
+      Einstellungen - Verfügbarkeit - "Verfügbar, aber auf der Kursseite
+      verborgen <input type="checkbox" />
+    </p>
+    <p>
+      (falls diese Möglichkeit nicht besteht, muss dies von Administrator*innen
+      freigeschaltet werden)
+    </p>
+    <p></p>
+  </details>
+  <details>
+    <summary style="color: hsl(40, 100%, 40%)"><b>3. Rechte der Datenbank ändern</b></summary>
+    <p>
+      <u
+        ><strong
+          >Wichtig ist, Rechte anzupassen, dass Teilnehmer*innen liken können
+          und Likes korrekt angezeigt werden:</strong
+        ></u
+      ><br />Datenbank-Administration - Rechte ändern - Teilnehmer*in bei
+      folgenden Rechten hinzufügen:
+    </p>
+    <p>
+      mod/data:rate <input type="checkbox" /><br />
+      mod/data:viewanyrating <input type="checkbox" /><br />
+      mod/data:viewallratings <input type="checkbox" />
+    </p>
+    <p></p>
+  </details>
+</div>
+<p><br /></p>
